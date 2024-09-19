@@ -111,20 +111,20 @@ The gds action if succesful generates a   summary of
 
    1. gds summary:
       - Synthesis Warnings section is to display the warnings in your design. Synthesis of a design refers to  conversion of high level description of digital system to the target technology library, converting the generic gates into specific gates from a technology library (such as NAND, NOR, flip-flops, etc.) based on the fabrication process.
-{{< figure src="images/gdsummary.png" title="gds Action Summary" style="width:500px;" >}}   
+{{< figure src="images/gdsummary.png" title="gds Action Summary" style="width:300px;" >}}   
       - Standard cell usage according to the category of cells. These cells are comprised of Sky130nm PDK from [Skywater Technologies](https://skywater-pdk.readthedocs.io/en/main/index.html).
       - The details for each of the standard cells utilised in your project can be viewed by clicking on specific cells. 
-{{< figure src="images/view_std_cells.png" title="View Standard Cells" style="width:500px;" >}}   
+{{< figure src="images/view_std_cells.png" title="View Standard Cells" style="width:250px;" >}}   
       - The cell usage table includes additional cells such as fill cells and tap cells that are not part of your original design. certain cells like fill cells and tap cells are automatically inserted during the physical design stage to ensure the integrity of the layout and meet the manufacturing requirements. For instance, Tap cells are to prevent latch-up conditions and Fill cells are to maintain uniform density across the chip and avoid uneven metal deposition. 
 
    2. precheck summary:
       - The precheck summary includes the Layout pre-requisites required to be met before sending for a tapeout.
-{{< figure src="images/prechecksummary.png" title="Summary of precheck job" style="width:500px;" >}}   
+{{< figure src="images/prechecksummary.png" title="Summary of precheck job" style="width:250px;height:200px" >}}   
    
    3. viewer summary:
       - This section offers a unique feature that allows you to view the layout abstraction of your design.
       - The 3D view of your layout can be seen by clicking on 'open 3D viewer'.
-{{< figure src="images/3dviewer.png" title="3D viewer Button" style="width:500px;" >}}   
+{{< figure src="images/3dviewer.png" title="3D viewer Button" style="width:250px;  height:200px;" >}}   
 
 ## View GDS Of Your Design:  
    1. 2D Viewer: 
